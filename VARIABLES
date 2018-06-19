@@ -1,0 +1,49 @@
+Tree-level results:
+
+pid: plot identification code
+tid: tree identification code
+x: x-coordinate (m)
+y: y-coordinate (m)
+d: diameter-at-breast height (m)
+h: tree height (m)
+rho: wood density (kg/m3)
+ols1_t_agb: tree-scale AGB estimate via OLS (Chave et al. 2014) (kg)
+ols1_t_u_a: allometric tree-scale uncertainty in ols1_t_agb (rel)
+ols1_t_u_m: measurement tree-scale uncertainty in ols1_t_agb (rel)
+ols1_t_u: total tree-scale uncertainty in ols1_t_agb (rel)
+nls2_t_agb: tree-level AGB estimate via additive, 2-param NLS (kg)
+nls2_t_agb_ali: 95% lower allometric tree-scale uncertainty interval (kg) 
+nls2_t_agb_aui: 95% upper allometric tree-scale uncertainty interval (kg)
+nls2_t_agb_mli: 95% lower measurement tree-scale uncertainty interval (kg)
+nls2_t_agb_mui: 95% upper measurement tree-scale uncertainty interval (kg)
+nls2_t_agb_li: 95% lower total tree-scale uncertainty interval (kg)
+nls2_t_agb_ui: 95% upper total tree-scale uncertainty interval (kg)
+nls2_t_u_a: allometric tree-scale uncertainty in nls2_t_agb (rel)
+nls2_t_u_m: measurement tree-scale uncertainty in nls2_t_agb (rel)
+nls2_t_u: total tree-scale uncertainty in nls2_t_agb (rel)
+nls3_t_agb: tree-scale AGB estimate via multiplicative, 2-param NLS (kg)
+nls4_t_agb: tree-scale AGB estimate via additive, 3-param NLS (kg)
+nls5_t_agb: tree-scale AGB estimate via multiplicative, 3-param NLS (kg)
++ additional tree-scale uncertainty values consistent with nls2
+
+Plot-level results variables:
+
+pid: plot identification code
+ba: basal area (m)
+lh: Lorey's height (m)
+ols1_p_agb:  plot-scale AGB estimate via OLS (Chave et al. 2014) (kg)
+ols1_p_u: total plot-scale uncertainty in ols1_p_agb (rel)
+nls2_p_agb: plot-scale AGB estimate via additive, 2-param NLS (kg
+nls2_p_agb_ali: 95% lower allometric plot-scale uncertainty interval (kg)
+nls2_p_agb_aui: 95% upper allometric plot-scale uncertainty interval (kg)
+nls2_p_agb_mli: 95% lower measurement plot-scale uncertainty interval (kg)
+nls2_p_agb_mui: 95% upper measurement plot-scale uncertainty interval (kg)
+nls2_p_agb_li: 95% lower total plot-scale uncertainty interval (kg)
+nls2_p_agb_ui: 95% upper total plot-scale uncertainty interval (kg)
+nls2_p_u_a: allometric plot-scale uncertainty in nls2_p_agb
+nls2_p_u_m: measurement plot-scale uncertainty in nls2_p_agb
+nls2_p_u: total plot-scale uncertainty in nls2_p_agb
+nls3_p_agb: plot-scale AGB estimate via multiplicative, 2-param NLS (kg)
+nls4_p_agb: plot-scale AGB estimate via additive, 3-param NLS (kg)
+nls5_p_agb: plot-scale AGB estimate via multiplicative, 3-param NLS (kg)
++ additional plot-scale uncertainty values consistent with nls2
